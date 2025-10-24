@@ -24,7 +24,7 @@ body.bg {
   /* Background setup */
   background-image:
     linear-gradient(rgba(15, 20, 30, 0.55), rgba(15, 20, 30, 0.55)),
-    url("../images/photo.webp");
+    url("../images/collections/photo.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;        /* fills the screen */
