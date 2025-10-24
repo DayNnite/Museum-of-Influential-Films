@@ -171,4 +171,4 @@ body.bg {
   .staff-row:nth-child(even) .staff-bio {
     order: initial; /* natural stack order on mobile */
   }
-  .
+  
