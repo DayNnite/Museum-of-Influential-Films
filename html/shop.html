@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Sam G" />
+  <title>Museum Shop</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/shop.css" />
+</head>
+<body>
+  <!-- Main Nav (add Shop link to all museum pages for consistency) -->
+  <header class="site-header">
+    <nav class="main-nav">
+     <header class="topbar">
+    <h2 class="site-title">Souvenir Shop</h2>
+    <nav class="primary-nav">
+      <button onclick="location.href='../index.html'">Home</button>
+      <button onclick="location.href='staff.html'">Staff</button>
+      <button onclick="location.href='collections.html'">Collections</button>
+    </nav>
+  </header>
+<body class="bg">
+
+
+  <main class="shop-container">
+    <main class="shop-container">
+
+  <!-- ITEM 1 -->
+  <article class="souvenir-item"
+           data-item-id="item001"
+           data-title="Rose Pendant from Titanic"
+           data-price="24.99"
+           data-image="../images/collections/titanic.webp"
+           data-alt="Replica rose pendant inspired by Titanic"
+           data-desc="Collection: Anthropology — Material: Sterling silver & resin | Location: Paramount Archives | Purpose: Symbol of enduring love and loss.">
+    <img src="../images/collections/rose necklace.jpg"
+         alt="Replica rose pendant inspired by Titanic"
+         title="&quot;A heart that will go on.&quot;"
+         class="item-image"
+         role="button"
+         aria-label="Open preview of Rose Pendant from Titanic">
+    <div class="item-info">
+      <h2 class="item-title">Rose Pendant from Titanic</h2>
+      <p class="item-desc">Collection: Anthropology — Material: Sterling silver & resin | Location: Paramount Archives | Purpose: Symbol of enduring love and loss.</p>
+      <p class="item-price">$224.99</p>
+      <button class="add-btn"
+              aria-label="Add to Cart"
+              onclick="addToCart(this)">Add to Cart</button>
+    </div>
+  </article>
+
+  <!-- ITEM 2 -->
+  <article class="souvenir-item"
+           data-item-id="item002"
+           data-title="Neo’s Sunglasses"
+           data-price="18.50"
+           data-image="../images/collections/the_matrix.webp"
+           data-alt="Notebook with falling green Matrix code design"
+           data-desc="Collection: Archaeology — Material: Paper & ink | Location: Warner Bros. Archives | Purpose: A nod to the blurred lines of reality.">
+    <img src="../images/collections/neos-sunglasses.webp"
+         alt="Notebook with falling green Matrix code design"
+         title="&quot;There is no spoon.&quot;"
+         class="item-image"
+         role="button"
+         aria-label="Open preview of Matrix Code Notebook">
+    <div class="item-info">
+      <h2 class="item-title">Matrix Code Notebook</h2>
+      <p class="item-desc">Collection: Archaeology — Material: Paper & ink | Location: Warner Bros. Archives | Purpose: A nod to the blurred lines of reality.</p>
+      <p class="item-price">$189.99</p>
+      <button class="add-btn"
+              aria-label="Add to Cart"
+              onclick="addToCart(this)">Add to Cart</button>
+    </div>
+  </article>
+
+ <!-- ITEM 3 -->
+<article class="souvenir-item"
+         data-item-id="item005"
+         data-title="Lightsaber Replica"
+         data-price="79.99"
+         data-image="../images/collections/star_wars.webp"
+         data-alt="High-quality replica of a Jedi lightsaber inspired by Star Wars"
+         data-desc="Collection: Archaeology — Material: Metal hilt, acrylic blade | Location: Lucasfilm Archives | Purpose: Embodiment of heroism and balance in the Force.">
+  <img src="../images/collections/lightsaber.webp"
+       alt="High-quality replica of a Jedi lightsaber inspired by Star Wars"
+       title="&quot;An elegant weapon for a more civilized age.&quot;"
+       class="item-image"
+       role="button"
+       aria-label="Open preview of Lightsaber Replica">
+  <div class="item-info">
+    <h2 class="item-title">Lightsaber Replica</h2>
+    <p class="item-desc">
+      Collection: Archaeology — Material: Metal hilt, acrylic blade | Location: Lucasfilm Archives | Purpose: Embodiment of heroism and balance in the Force.
+    </p>
+    <p class="item-price">$179.99</p>
+    <button class="add-btn"
+            aria-label="Add to Cart"
+            onclick="addToCart(this)">Add to Cart</button>
+  </div>
+</article>
+
+<!-- ITEM 4 -->
+<article class="souvenir-item"
+         data-item-id="item006"
+         data-title="Metropolis Robot Head"
+         data-price="89.00"
+         data-image="../images/collections/metropolis_robot.webp"
+         data-alt="Replica of the Maschinenmensch robot head from Metropolis"
+         data-desc="Collection: Archaeology — Material: Cast resin & chrome finish | Location: UFA Studios, Berlin | Purpose: Representation of industrial perfection and artificial life.">
+  <img src="../images/collections/metrohead.webp"
+       alt="Replica of the Maschinenmensch robot head from Metropolis"
+       title="&quot;The mediator between head and hands must be the heart.&quot;"
+       class="item-image"
+       role="button"
+       aria-label="Open preview of Metropolis Robot Head">
+  <div class="item-info">
+    <h2 class="item-title">Metropolis Robot Head</h2>
+    <p class="item-desc">
+      Collection: Archaeology — Material: Cast resin & chrome finish | Location: UFA Studios, Berlin | Purpose: Representation of industrial perfection and artificial life.
+    </p>
+    <p class="item-price">$289.00</p>
+    <button class="add-btn"
+            aria-label="Add to Cart"
+            onclick="addToCart(this)">Add to Cart</button>
+  </div>
+</article>
+<footer>
+  <p>&copy; 2025 Museum of Influential Films | Curated by Sam G</p>
+  <p class="ai-credit">
+    Descriptions in this exhibit were initially generated with AI assistance and edited by a human curator.
+  </p>
+</footer>
+
+
+</main>
